@@ -16,7 +16,7 @@ const init = async () => {
         method: 'GET',
         path: '/log',
         handler: (request, h) => {
-            fs.appendFileSync(logFilePath, `${new Date().toLocaleString()} ${request.query.type} \n`);
+            fs.appendFileSync(logFilePath, `${new Date().toLocaleString('se-SE')} ${request.query.type} \n`);
             return 'OK';
         }
     });
