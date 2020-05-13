@@ -2,7 +2,7 @@ import * as Hapi from "@hapi/hapi";
 
 import * as fs from "fs";
 
-const logFilePath = 'logfile.log';
+const logFilePath = 'data/logfile.log';
 
 const init = async () => {
 
