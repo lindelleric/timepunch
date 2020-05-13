@@ -1,0 +1,30 @@
+{
+  "name": "timepunch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node-dev src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricNilsson/timepunch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricNilsson/timepunch/issues"
+  },
+  "homepage": "https://github.com/EricNilsson/timepunch#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^19.0.3",
+    "@types/node": "^14.0.1",
+    "ts-node": "^8.10.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.2"
+  }
+}
